@@ -1,0 +1,17 @@
+--- google-drive3-fork-1.0.10/Cargo.toml	1969-12-31T16:00:00-08:00
++++ google-drive3-fork-1.0.10/Cargo.toml	2018-10-11T12:58:13.611516-07:00
+@@ -36,11 +36,11 @@
+ version = "^ 1.0"
+ 
+ [dependencies.url]
+-version = "= 0.5"
++version = "^ 1.0"
+ 
+ [dependencies.yup-oauth2]
+ version = "^ 1.0"
+-[dev-dependencies.hyper-rustls]
+-version = "^0.6"
++[dev-dependencies.hyper-native-tls]
++version = "^ 0.3"
+ 
+ [features]
